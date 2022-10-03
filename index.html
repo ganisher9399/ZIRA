@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Zira</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- lora fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <!-- lighthaus  fonts-->
+    <link href="http://fonts.cdnfonts.com/css/lighthaus" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="description">
+
+    <meta property="og:url" content="https://geofizika.netlify.app/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="./img/intro-bg.png">
+</head>
+
+<body style="position: relative;">
+
+    <header>
+        <div class="green_header_top">
+            <a href="#" class="green_header_top_logo">
+                <img src="../../img/logo_left.png" alt="">
+                <img src="../../img/zira_logo.png" alt="">
+                <img src="../../img/logo_right.png" alt="">
+            </a>
+        </div>
+
+        <div class="header_block">
+            <div class="container">
+                <div class="header_block_bottom">
+                    <div class="header_block_left">
+                        <div class="menu_btn" onclick="foo()" style="cursor: pointer;">
+                            <img src="../../img/menu_btn.png" alt="">
+                            <span>МЕНЮ</span>
+                        </div>
+                        <!-- dropdown-start-->
+                        <div class="dropdown header_dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              RU
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">rus</a>
+                                <a class="dropdown-item" href="#">uzb</a>
+                                <a class="dropdown-item" href="#">eng</a>
+                            </div>
+                        </div>
+                        <!-- dropdown-end -->
+                    </div>
+                    <div class="header_block_right">
+                        <div class="header_tel">
+                            <img src="../../img/header_tel.png" alt="">
+                            <a href="tel:+998 88 183 68 68">+998(88)183-68-68</a>
+                        </div>
+                        <div class="header_seorch">
+                            <img src="../../img/header_seorch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+<div class="menu">
+    <div class="menu_blue">
+        <img src="../img/menun.png" alt="" onclick="boo()" style="padding: 8px;">
+        <div class="row" style="padding-top: 55px;">
+            <div class="col-6">
+                <ul>
+                    <li>Меню</li>
+                    <li><a href="./aboutUs.html">О нас</a></li>
+                    <li><a href="./Catering.html">Проекты</a></li>
+                    <li><a href="./restoran.html">Рестораны</a></li>
+                    <li><a href="./news1.html">Новости</a></li>
+                    <li><a href="./istiqlolBar.html">Вакансии</a></li>
+                    <li><a href="./contact.html">Контакты </a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    <li>Социальное сети</li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h6>Контакты</h6>
+                <a href="tel:+992007777755">+ 992 00 777-77-55</a>
+            </div>
+            <div class="col-6" style="display: flex; justify-content: flex-start; align-items: flex-end;">
+                <!-- dropdown-start-->
+                <div class="dropdown header_dropdown">
+                    <button style="color: #fff" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                          RU
+                        </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">rus</a>
+                        <a class="dropdown-item" href="#">uzb</a>
+                        <a class="dropdown-item" href="#">eng</a>
+                    </div>
+                </div>
+                <!-- dropdown-end -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var menu = document.querySelector(".menu");
+
+    var menublue = document.querySelector(".menu_blue");
+
+
+    function foo() {
+        menu.style.left = "0px";
+        menublue.style.left = "0px";
+        document.querySelector("body").style.overflowY = "hidden";
+        document.querySelector("body").style.overflowX = "hidden";
+
+    }
+
+    function boo() {
+        menu.style.left = "-100%";
+        menublue.style.left = "-660px";
+        document.querySelector("body").style.overflowY = "scroll";
+        document.querySelector("body").style.overflowX = "hidden";
+    }
+</script>
+
+
+<main class="home-page">
+
+    <section class="section_restoranlar section-space">
+        <div class="container">
+            <div class="restoranlar_wrapper">
+                <div class="restoranlar_wrapper_text">
+                    <h1>Ночи становятся длиннее <br> еда вкуснее • напитки холоднее</h1>
+                    <p>Побалуйте себя нашими ежедневными специальными предложениями, созданными, чтобы сделать ваш каждый день исключительным.</p>
+                    <div class="btn_link">
+                        <button type="button" class="btn_well"><span>Рестораны</span> <img src="../img/btn_right.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="logotipe">
+                    <div class="logotipe_card">
+                        <img src="../img/logo_card.png" alt="">
+                    </div>
+                    <div class="logotipe_card">
+                        <img src="../img/logo_card2.png" alt="">
+                    </div>
+                    <div class="logotipe_card">
+                        <img src="../img/logo_card3.png" alt="">
+                    </div>
+                    <div class="logotipe_card">
+                        <img src="../img/logo_card4.png" alt="">
+                    </div>
+                    <div class="logotipe_card">
+                        <img src="../img/logo_card5.png" alt="">
+                    </div>
+                </div>
+                <div class="restoranlar_img">
+                    <img src="../img/restoranlar1.png" alt="">
+                    <img src="../img/restoranlar2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_about section-space">
+        <div class="container">
+            <div class="about_wrapper">
+                <div class="section-title">
+                    <span>О НАС</span>
+                    <h2>О НАС</h2>
+                </div>
+                <div class="about-inner">
+
+                    <div class="row about_center">
+                        <div class="col-xl-6">
+                            <div class="h2_p_btn">
+                                <h2>ZIRA – ПЕРВЫЙ РОССИЙСКИЙ РЕСТОРАННЫЙ ХОЛДИНГ, ОСНОВАННЫЙ В 1991 ГОДУ.</h2>
+                                <p>Вслед за «Сиреной» Аркадий Новиков открыл ресторан «Царская охота», где любили собираться общественные и политические деятели. В 2011 году Novikov Group вышли на зарубежную арену, открыв популярный и сегодня ресторан Novikov
+                                    Restaurant & Bar в Лондонском районе Мейфэр.</p>
+                                <div class="btn_link">
+                                    <button type="button" class="btn_well"><span>О нас</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="us_img">
+                                <div class="us_6"><img src="../img/us1.png" alt=""></div>
+                                <div class="us_6"><img src="../img/us2.png" alt=""></div>
+                            </div>
+                            <div class="us_img">
+                                <div class="us_12"><img src="../img/us3.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_missya section-space">
+        <div class="container">
+            <div class="missya_wrapper">
+                <div class="section-title">
+                    <span>Миссия</span>
+                    <h2>Миссия</h2>
+                </div>
+                <div class="missya-inner">
+                    <img class="left99" src="../img/left99.png" alt="">
+                    <h6>Вывести на новый уровень общественное питание в стране, благодаря повышению качества сервиса и продуктов через слаженную работу производства, дистрибуции и управления. </h6>
+                    <img class="right99" src="../img/right99.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_restoran section-space">
+        <div class="container">
+            <div class="restoran_wrapper">
+                <div class="section-title">
+                    <span>Рестораны</span>
+                    <h2>Рестораны</h2>
+                </div>
+                <div class="restoran-inner" style="margin-left: -125px;">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper" style="margin-right:-125px;padding-right: 125px; padding-bottom: 200px">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="con"></div>
+                                <img src="../img/logo_r1.png" alt="">
+                                <h1>gym bar</h1>
+                                <p>Компания «Vosit Distribution» входит в холдинг «Зира», который осуществляет свою детальность под управлением «FIFTYFIVE GROUP».
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="con"></div>
+                                <img src="../img/logo_r2.png" alt="">
+                                <h1>Vosit Distribution</h1>
+                                <p>Компания «Vosit Distribution» входит в холдинг «Зира», который осуществляет свою детальность под управлением «FIFTYFIVE GROUP».
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="con"></div>
+                                <img src="../img/logo_r3.png" alt="">
+                                <h1>Istiqlol terrace</h1>
+                                <p>Компания «Vosit Distribution» входит в холдинг «Зира», который осуществляет свою детальность под управлением «FIFTYFIVE GROUP».
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="con"></div>
+                                <img src="../img/logo_r1.png" alt="">
+                                <h1>gym bar</h1>
+                                <p>Компания «Vosit Distribution» входит в холдинг «Зира», который осуществляет свою детальность под управлением «FIFTYFIVE GROUP».
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="con"></div>
+                                <img src="../img/logo_r2.png" alt="">
+                                <h1>Vosit Distribution</h1>
+                                <p>Компания «Vosit Distribution» входит в холдинг «Зира», который осуществляет свою детальность под управлением «FIFTYFIVE GROUP».
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="con"></div>
+                                <img src="../img/logo_r3.png" alt="">
+                                <h1>Istiqlol terrace</h1>
+                                <p>Компания «Vosit Distribution» входит в холдинг «Зира», который осуществляет свою детальность под управлением «FIFTYFIVE GROUP».
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-button-next">
+                            <img src="../img/k_r.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="../img/k_l.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_novosti section-space">
+        <div class="container">
+            <div class="novosti_wrapper">
+                <div class="section-title">
+                    <span>НОВОСТИ</span>
+                    <h2>НОВОСТИ</h2>
+                </div>
+                <div class="novosti-inner">
+                    <div class="novosti_img">
+                        <img src="../img/novosti_img.png" alt="">
+                        <div class="l_r_logo">
+                            <img src="../img/k_l.png" alt="">
+                            <img src="../img/k_r.png" alt="">
+                        </div>
+                    </div>
+                    <div class="novosti_text">
+                        <h2>Рестораны холдинга полностью погасили свой углеродный след</h2>
+                        <p>Tigrus holding совместно с Центром экологических инноваций заключил соглашение по погашению выбросов углеродного газа в атмосферу и снижению загрязнения окружающей среды...</p>
+                        <div class="btn_link">
+                            <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_ish section-space">
+        <div class="container">
+            <div class="ish_wrapper">
+                <div class="section-title">
+                    <span>ВАКАНСИИ</span>
+                    <h2>ВАКАНСИИ</h2>
+                </div>
+                <div class="ish-inner">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper2" style="padding-bottom: 200px">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide cc">
+                                <img src="../img/v1.png" alt="">
+                                <h2>администратор</h2>
+                                <span>Требуется квалифицированный, вежливый сотрудник с опытом... </span>
+                                <div class="btn_link" style="margin-top: 25px">
+                                    <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cc">
+                                <img src="../img/v2.png" alt="">
+                                <h2>повар</h2>
+                                <span>Требуется квалифицированный, вежливый сотрудник с опытом... </span>
+                                <div class="btn_link" style="margin-top: 25px">
+                                    <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cc">
+                                <img src="../img/v3.png" alt="">
+                                <h2>официант</h2>
+                                <span>Требуется квалифицированный, вежливый сотрудник с опытом... </span>
+                                <div class="btn_link" style="margin-top: 25px">
+                                    <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cc">
+                                <img src="../img/v1.png" alt="">
+                                <h2>администратор</h2>
+                                <span>Требуется квалифицированный, вежливый сотрудник с опытом... </span>
+                                <div class="btn_link" style="margin-top: 25px">
+                                    <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cc">
+                                <img src="../img/v2.png" alt="">
+                                <h2>повар</h2>
+                                <span>Требуется квалифицированный, вежливый сотрудник с опытом... </span>
+                                <div class="btn_link" style="margin-top: 25px">
+                                    <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cc">
+                                <img src="../img/v3.png" alt="">
+                                <h2>официант</h2>
+                                <span>Требуется квалифицированный, вежливый сотрудник с опытом... </span>
+                                <div class="btn_link" style="margin-top: 25px">
+                                    <button type="button" class="btn_well"><span>ПОДРОБНЕЕ</span> <img src="../img/btn_right.png" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-button-next2">
+                            <img src="../img/k_r.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev2">
+                            <img src="../img/k_l.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_rukov section-space">
+        <div class="container">
+            <div class="rukov_wrapper">
+                <div class="section-title">
+                    <span>руководство</span>
+                    <h2>руководство</h2>
+                </div>
+                <div class="rukov-inner">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper3" style="padding-bottom: 200px">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ccc">
+                                <img src="../img/ru1.png" alt="">
+                                <div class="name">
+                                    <h2>STAN KIRILOV</h2>
+                                    <p>Главный менеджер</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ccc">
+                                <img src="../img/ru2.png" alt="">
+                                <div class="name">
+                                    <h2>STAN KIRILOV</h2>
+                                    <p>Главный менеджер</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ccc">
+                                <img src="../img/ru3.png" alt="">
+                                <div class="name">
+                                    <h2>STAN KIRILOV</h2>
+                                    <p>Главный менеджер</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ccc">
+                                <img src="../img/ru1.png" alt="">
+                                <div class="name">
+                                    <h2>STAN KIRILOV</h2>
+                                    <p>Главный менеджер</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ccc">
+                                <img src="../img/ru2.png" alt="">
+                                <div class="name">
+                                    <h2>STAN KIRILOV</h2>
+                                    <p>Главный менеджер</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ccc">
+                                <img src="../img/ru3.png" alt="">
+                                <div class="name">
+                                    <h2>STAN KIRILOV</h2>
+                                    <p>Главный менеджер</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-button-next2">
+                            <img src="../img/k_r.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev2">
+                            <img src="../img/k_l.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_contact section-space">
+        <div class="container">
+            <div class="contact_wrapper">
+                <div class="section-title">
+                    <span>Контакты</span>
+                    <h2>Контакты</h2>
+                </div>
+                <div class="contact-inner">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="ad_text">
+                                <span>Адрес:</span>
+                                <p>Айни 84</p>
+                            </div>
+                            <div class="ad_text">
+                                <span>Почты:</span>
+                                <p>zira_group@.tj</p>
+                            </div>
+                            <div class="ad_text">
+                                <span>HR отдел::</span>
+                                <p>zira_group@.tj</p>
+                            </div>
+                            <div class="ad_text">
+                                <span>Коммерческий департамент:</span>
+                                <p>zira_group@.tj</p>
+                            </div>
+                            <div class="ad_text">
+                                <span>Кейтеринг:</span>
+                                <p>zira_group@.tj</p>
+                            </div>
+                            <div class="ad_text">
+                                <span>Тел:</span>
+                                <p>+ 992 007777755</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="rang"></div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.2142412976785!2d69.2445144347712!3d41.278981469365114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b5d2190ee95%3A0xef81f3d8543c65e2!2sOnline%20Service%20Group!5e0!3m2!1sru!2s!4v1664300401009!5m2!1sru!2s" width="100%" height="530" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+    <div class="container">
+        <a href="#" class="footer_logo">
+            <img src="../../img/footer_logo.png" alt="">
+        </a>
+        <div class="footer_nav">
+            <ul>
+
+                <li><a href="./aboutUs.html">О нас</a></li>
+                <li><a href="./Catering.html">Проекты</a></li>
+                <li><a href="./restoran.html">Рестораны</a></li>
+                <li><a href="./news1.html">Новости</a></li>
+                <li><a href="./istiqlolBar.html">Вакансии</a></li>
+                <li><a href="./contact.html">Контакты </a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <span>© Все права защищены</span>
+            <div class="accounts">
+                <a href="#">
+                    <img src="../../img/f.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../../img/t.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../../img/i.png" alt="">
+                </a>
+            </div>
+            <p>Разработан: <span>Online Service Group</span></p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+<script src="./js/main.js"></script>
+<!-- <script>
+    AOS.init();
+</script> -->
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next2",
+            prevEl: ".swiper-button-prev2",
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper3", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next2",
+            prevEl: ".swiper-button-prev2",
+        },
+    });
+
+
+    var swiper = new Swiper(".mySwiper4", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next2",
+            prevEl: ".swiper-button-prev2",
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper8", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next20",
+            prevEl: ".swiper-button-prev20",
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper9", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next21",
+            prevEl: ".swiper-button-prev21",
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper10", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next22",
+            prevEl: ".swiper-button-prev22",
+        },
+    });
+</script>
+
+
+</body>
+
+</html>
